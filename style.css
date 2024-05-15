@@ -79,7 +79,7 @@ body{
 
 }
 .col img{
-    width: 40px;
+    max-width: 40px;
     margin-right: 10px;
 
 }
@@ -99,3 +99,23 @@ body{
     display: none;
 
 }
+@media (max-width:438px){
+    .col{
+       margin-right: 33px;
+    }
+}
+@media (max-width:375px){
+   .search input{
+    padding: 5px;
+   }
+}
+@media (max-width:391px){
+    .search input{
+     padding: 5px;
+    }
+ }
+ @media (max-width:352px){
+    .search input{
+     padding: 4px;
+    }
+ }
